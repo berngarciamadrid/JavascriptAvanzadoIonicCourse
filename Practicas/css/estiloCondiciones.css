@@ -1,0 +1,37 @@
+/*  Estilo de condiciones.html */
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+p {
+    text-align: center;
+}
+
+#resultadoOperacion {
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:10%;
+    margin-right:10%;
+
+}
+
+#titulo_bonoloto {
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:10%;
+    margin-right:10%;
+    color: rgba(20,20,20,0.9);
+}

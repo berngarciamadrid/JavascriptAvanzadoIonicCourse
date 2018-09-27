@@ -1,0 +1,79 @@
+<html>
+   <head>
+      <title>Condicionales de Javascript</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="css/estiloCondiciones.css">
+    
+   </head>
+   <body>
+       <h1>Prácticas con hoja de JavaScript en una hoja aparte ( condiciones .js )</h1>
+       <!--Tabla de multiplicar introduciendo un número(for)-->
+       <h4>Tabla de multiplicar introduciendo un número (for )</h4>
+       <input type="text" id="cantidad" value="" placeholder="Introduce un número">
+       <input type="button" onclick="multiplicar()" value="multiplicar">
+       <br><br>
+       <table id="resultadoMultiplicar"></table>
+       <!--Número par o impar-->
+       <h4>Comprobar si el número introducido es par o impar. (if, else)</h4>
+       <input type="text" id="parImpar" value="" placeholder="Introduce un número par o impar">
+       <input type="button" onclick="parImpar()" value="parImpar">
+       <p id="tipoNumero"></p>
+       <!--Comprobar si el número es primo-->
+       <h4>Comprobar si el número introducido es primo (for, if, else)</h4>
+       <input type="text" id="primo" value="" placeholder="Si un número es primo">
+       <input type="button" onclick="primo()" value="primo">
+       <p id="tipoPrimo"></p>
+       <!--Comprobar la edad y su categoría-->
+       <h4>Comprobar la edad introducida a qué categoría deportiva pertenece.
+           Introducir edad entre 5 y 18. (switch)
+       </h4>
+       <section id="arrayCategorias">
+        
+       </section>
+       <br>
+       <!--Comprobar el trimestre-->
+       <input type="text" id="edadCategoria" value="" placeholder="Escribe una edad entre 5 y 18">
+       <input type="button" onclick="edadCategoria()" value="edad">
+       <p id="comprobarCategoria"></p>
+       <br>
+       <!--Comprobar el trimestre-->
+       <h4>Comprobar a qué trimestre pertenece un mes introducido</h4>
+       <input type="text" id="trimestre" value="" placeholder="Trimestre al que pertenece el mes">
+       <input type="button" onclick="trimestre()" value="mes">
+       <p id="comprobarTrimestre"></p>
+       
+       <!--Comprobar el signo del zodiaco-->
+       <h4>Introducir una fecha y comprobar el signo del zodiaco</h4>
+       <input type="date" id="signo" value="" placeholder="Elige una fecha para ver tu signo occidental del zodiaco">
+       <input type="button" onclick="verSigno()" value="signo_zodiaco">
+       <p id="signoZodiacal"></p>
+
+       <!--Introducir código postal y mostrar a qué región pertenece-->
+       <h4>Introducir un código postal y mostrar a qué región pertenece</h4>
+       <input type="text" id="codigo" value="" placeholder="Escribe en número un código postal" minlength="5" maxlength="5">
+       <input type="button" onclick="codigoPostal()" value="codigo">
+       <p id="comprobarCodigoPostal"></p>
+
+
+       <!--Introducir un número del 1 al 7 y que muestre el nombre del día de la semana-->
+       <h4>Introducir un número del 1 al 7 y que muestre el nombre del día de la semana</h4>
+       <input type="text" id="dia_semana" value="" placeholder="Introduce un número del 1 al 7">
+       <input type="button" onclick="comprobarDia()" value="dia_semana">
+       <p id="comprobarDiaSemana"></p>
+
+
+       <h4>Introducir el DNI y la letra y comprobar su la letra es correcta. (TRWAGMYFPDXBNJZSQVHLCKET) (dni%23)</h4>
+       <input type="text" id="dni" value="" placeholder="Escribe tu DNI" minlength="9" maxlength="9">
+       <input type="button" onclick="validarDNI()" value="comprobar_dni">
+       <p id="verdaderoDNI"></p>
+
+       <h4>Introducir una hora y comprobar si es por la mañana, tarde, noche, madrugada.</h4>
+       <input type="time" id="tiempo_dia" value="" placeholder="Introduce un número del 1 al 7">
+       <input type="button" onclick="comprobarMomento()" value="momento_dia">
+       <p id="comprobarMomentoDia"></p>
+
+
+      
+       <script src="js/condicionesJS.js" type="text/javascript" language="javascript"></script>
+   </body>
+</html>

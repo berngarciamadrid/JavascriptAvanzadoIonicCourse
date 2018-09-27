@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+    <head>
+        <title> Funciones y Operaciones</title>
+        <meta charset="utf-8">
+        
+
+    </head>
+    <body>
+        <h1>Prácticas con hoja de Javascript en una hoja aparte<br>
+        (funciones.js)</h1>
+        <p>¿Cuánto es <span id="litros"></span> litros en centilitros? <span id="calculo1"></span> centilitros</p>
+        <p>¿Cuántos metros son <span id ="kilómetros"></span> kilómetros? <span id="calculo2"></span> metros</p>
+        <p>¿Cuántos minutos tiene <span id="horas"></span> horas? <span id="calculo3"></span> minutos</p>
+        <p>¿Cuántos son <span id="megabytes"></span> megabytes en gigabyte? <span id="calculo4"></span> gigabytes</p>
+        <p>¿Cuántos centímetros son <span id="pulgadas"></span> pulgadas? <span id="calculo5"></span> centímetros</p>
+        <p><span id="dia"></span> día tiene <span id="calculo6"></span></p>
+        <p>Calcula el precio final de un producto con valor  <span id="euroIVA"></span>€ - 20% + IVA (+ 21%) <span id="calculo7"></span> €</p>
+        <p>El año actual es <span id="yearactual"></span><span id="calculo8"></span></p>
+        <p><span id="anyo"></span> año completo tiene <span id="calculo9"></span></p>
+        <p>Si un coche circula a <span id="velocidad"></span> km/h, ¿cuántos minutos tarda en recorrer <span id="recorrido"></span> km? <span id="tiempo_minutos"></span> minutos <span id="tiempo"></span> horas</p>
+        <script src="js/funciones.js"></script>
+        <script>
+                
+                // Acceder al DOM mediante su ID
+
+                // Meter Datos
+                document.getElementById("litros").innerHTML = litros;
+                document.getElementById("kilómetros").innerHTML = kilómetros;
+                document.getElementById("horas").innerHTML = horas;
+                document.getElementById("megabytes").innerHTML = megabytes;
+                document.getElementById("pulgadas").innerHTML = pulgadas;
+                document.getElementById("dia").innerHTML = dias;
+                document.getElementById("euroIVA").innerHTML = euroIVA;
+                document.getElementById("yearactual").innerHTML = yearactual;
+                document.getElementById("anyo").innerHTML = anyo;
+                document.getElementById("velocidad").innerHTML = velocidad;
+                document.getElementById("recorrido").innerHTML = recorrido;
+                document.getElementById("tiempo").innerHTML = tiempo;
+                document.getElementById("tiempo_minutos").innerHTML = tiempo_minutos;
+                
+
+
+                // Cálculos
+                document.getElementById("calculo1").innerHTML = calculo_litros;
+                document.getElementById("calculo2").innerHTML = calculo_km;
+                document.getElementById("calculo3").innerHTML = calculo_horas
+                document.getElementById("calculo4").innerHTML = calculo_megabytes
+                document.getElementById("calculo5").innerHTML = calculo_pulgadas
+                document.getElementById("calculo6").innerHTML = calculo_dias
+                document.getElementById("calculo7").innerHTML = calculo_IVA
+                document.getElementById("calculo8").innerHTML = calculo_YEAR
+                document.getElementById("calculo9").innerHTML = calculo_ANYO
+                
+                
+        </script>
+
+    </body>
+</html>
