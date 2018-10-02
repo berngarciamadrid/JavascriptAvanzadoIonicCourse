@@ -1,0 +1,9 @@
+# Temario que estamos dando en Javascript Avanzado e Ionic
+
+### 28 de Septiembre de 2018
+
+Promesas ( Promise ) : https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Usar_promesas;
+hasOwnProperty : https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Object/hasOwnProperty;
+Prototype (como era antes Javascript sin clases ) : https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Object/prototype;
+Closures y Ámbito: https://developer.mozilla.org/es/docs/Web/JavaScript/Closures;
+Más closures: https://www.w3schools.com/js/js_function_closures.asp;
