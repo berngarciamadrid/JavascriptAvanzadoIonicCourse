@@ -7,3 +7,7 @@ hasOwnProperty : https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia
 Prototype (como era antes Javascript sin clases ) : https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Object/prototype;
 Closures y Ámbito: https://developer.mozilla.org/es/docs/Web/JavaScript/Closures;
 Más closures: https://www.w3schools.com/js/js_function_closures.asp;
+
+### 2 de Octubre de 2018
+Angular
+Instalación de NodeJS, Angular, Componentes, HTML, CSS, Typescript
